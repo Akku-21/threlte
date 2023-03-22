@@ -4,7 +4,7 @@
   import Scene from './Scene.svelte'
 </script>
 
-<Canvas>
+<Canvas useLegacyLights={true}>
   <World>
     <Scene />
   </World>

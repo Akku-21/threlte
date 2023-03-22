@@ -7,7 +7,7 @@
 </script>
 
 <div class={_class}>
-  <Canvas>
+  <Canvas useLegacyLights={true}>
     <T.PerspectiveCamera
       makeDefault
       position={[-10, 10, 10]}

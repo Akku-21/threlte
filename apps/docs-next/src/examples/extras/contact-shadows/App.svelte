@@ -4,7 +4,7 @@
 </script>
 
 <div class="relative w-full h-full bg-white">
-  <Canvas>
+  <Canvas useLegacyLights={true}>
     <Scene />
   </Canvas>
 </div>

@@ -3,6 +3,6 @@
   import Scene from './Scene.svelte'
 </script>
 
-<Canvas>
+<Canvas useLegacyLights={true}>
   <Scene />
 </Canvas>

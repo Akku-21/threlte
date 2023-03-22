@@ -20,7 +20,7 @@
 </script>
 
 <div>
-  <Canvas>
+  <Canvas useLegacyLights={true}>
     <T
       is={PerspectiveCamera}
       makeDefault

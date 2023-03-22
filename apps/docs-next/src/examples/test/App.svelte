@@ -9,7 +9,7 @@
 </script>
 
 <div class="w-full h-full relative">
-  <Canvas>
+  <Canvas useLegacyLights={true}>
     <Scene />
   </Canvas>
 
